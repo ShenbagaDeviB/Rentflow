@@ -10,7 +10,11 @@
   "booking_item_section",
   "equipment_unit",
   "category",
-  "daily_rate"
+  "daily_rate",
+  "line_days",
+  "line_amount",
+  "checkout_condition_grade",
+  "damage_fee"
  ],
  "fields": [
   {
@@ -39,13 +43,40 @@
    "fieldname": "daily_rate",
    "fieldtype": "Currency",
    "label": "Daily rate"
+  },
+  {
+   "fieldname": "line_days",
+   "fieldtype": "Int",
+   "label": "Line Days",
+   "read_only": 1
+  },
+  {
+   "fieldname": "line_amount",
+   "fieldtype": "Currency",
+   "label": "Line Amount",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "New",
+   "fieldname": "checkout_condition_grade",
+   "fieldtype": "Select",
+   "label": "Checkout Condition Grade",
+   "options": "New\nGood\nFair\nPoor\nDamaged"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "damage_fee",
+   "fieldtype": "Currency",
+   "label": "Damage Fee",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-10-26 19:08:56.949257",
+ "modified": "2026-10-26 19:22:01.125214",
  "modified_by": "Administrator",
  "module": "Rentflow App",
  "name": "Booking Item",
