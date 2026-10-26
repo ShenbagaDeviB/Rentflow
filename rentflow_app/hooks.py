@@ -5,6 +5,13 @@ app_description = "This is a rent flow app "
 app_email = "shenbagdevi3306@gmail.com"
 app_license = "mit"
 
+
+fixtures=[
+    {
+        "dt":"Equipment Category",
+        "filters":[["name","in",["Power Drill","Generator","Scaffold Tower Set"]]]
+    }
+]
 # Apps
 # ------------------
 

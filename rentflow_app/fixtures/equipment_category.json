@@ -1,0 +1,32 @@
+[
+ {
+  "category_name": "Power Drill",
+  "daily_rate": 1000.0,
+  "deposit_amount": 0.0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Equipment Category",
+  "modified": "2026-10-26 18:20:04.395325",
+  "name": "Power Drill"
+ },
+ {
+  "category_name": "Generator",
+  "daily_rate": 1500.0,
+  "deposit_amount": 0.0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Equipment Category",
+  "modified": "2026-10-26 18:20:18.771499",
+  "name": "Generator"
+ },
+ {
+  "category_name": "Scaffold Tower Set",
+  "daily_rate": 1250.0,
+  "deposit_amount": 0.0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Equipment Category",
+  "modified": "2026-10-26 18:20:43.098046",
+  "name": "Scaffold Tower Set"
+ }
+]
