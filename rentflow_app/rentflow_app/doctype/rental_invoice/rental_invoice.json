@@ -14,7 +14,8 @@
   "rental_amount",
   "damage_amount",
   "total_amount",
-  "payment_status"
+  "payment_status",
+  "amended_from"
  ],
  "fields": [
   {
@@ -48,11 +49,13 @@
    "label": "Rental Amount"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "damage_amount",
    "fieldtype": "Currency",
    "label": "Damage Amount"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "total_amount",
    "fieldtype": "Currency",
    "label": "Total Amount",
@@ -64,12 +67,23 @@
    "in_list_view": 1,
    "label": "Payment Status",
    "options": "Unpaid\nPaid"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Rental Invoice",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2026-10-26 19:27:43.179376",
+ "modified": "2026-10-26 19:46:04.196353",
  "modified_by": "Administrator",
  "module": "Rentflow App",
  "name": "Rental Invoice",
